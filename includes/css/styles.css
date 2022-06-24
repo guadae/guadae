@@ -1,0 +1,150 @@
+/* styles.css */ 
+
+body {
+    background: url('../../images/girl-with-pose.jpg') no-repeat center fixed; 
+    background-size: cover; 
+}
+
+.container {
+    padding: 0px;
+}
+/* typography */
+
+div {
+    color: white; 
+}
+.icon-bar {
+    background-color: white;
+}
+
+.dropdown #navbarDropdownMenuLink  {
+    color: white; 
+}
+.dropdown #navbarDropdownMenuLink:hover  {
+    color: white;
+}
+
+a,
+a.navbar-brand:link, 
+a.navbar-brand:visited, 
+a.navbar-brand:hover,
+a.nav-link:link, 
+a.nav-link:visited, 
+a.nav-link:hover {
+    color: white;
+    
+}
+
+.navbar-toggler:link,
+.navbar-toggler:visited,
+.navbar-toggler:hover {
+    color: white; 
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    background-color: transparent; 
+    border: none; 
+}
+
+a.dropdown-item {
+    color: white;
+}
+
+a.underline-hover-effect {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+a.underline-hover-effect {
+    display: inline-block;
+    padding-bottom: 0.10rem; /* space between text and underline */
+    position: relative;
+  }
+  
+a.underline-hover-effect::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.25s ease-out;
+  }
+  .underline-hover-effect:hover::before {
+    width: 100%;
+  }
+
+  
+p {
+    color:rgb(178, 196, 207)
+}
+
+/* button */
+
+.btn.btn-outline-light {
+    padding: 15px;
+    display: inline;
+    margin: 10px 0px;
+}
+
+/* layout */
+.navbar-brand {
+    padding: 2px;
+}
+
+.btn {
+    width: 100%; 
+}
+
+.btn.btn-outline-light {
+    padding: 15px; 
+    display: inline-block; 
+    margin-right: 10px;
+}
+
+/* media queries */ 
+
+/* Portrait & landscape phone */
+
+@media (max-width: 425px) {
+    .row {
+        overflow-x: hidden; 
+    }
+    .container {
+        width: 100%;
+    }
+} 
+
+@media (max-width: 576px) {
+    .row {
+        overflow-x: hidden; 
+    }
+    .container {
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: none;
+        margin-left: none;
+    }
+} 
+
+@media (max-width: 768px) {
+        .btn.btn-outline-light {
+            margin-bottom: 10px;
+            width: 100%; 
+        }
+}
+
+@media (max-width: 998px) {
+    .col {
+        flex: none; 
+    }
+}
+
+/* @media (max-width: 1200px) {
+    .btn.btn-outline-light {
+        margin-bottom: 10px;
+    }
+} */
