@@ -1,4 +1,4 @@
-#LAKAS FITNESS 
+*LAKAS FITNESS 
 
 This application is a frontend signup fitness site sample intended for studying bootstrap 5. 
 
