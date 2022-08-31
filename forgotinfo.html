@@ -71,14 +71,18 @@ aria-label="Toggle navigation"
 </div><!-- end navbar-collapse -->
 </div><!-- end container -->
 
-<div class="container">
+<div class="container forgot-info-container">
 
   <h1>FORGOT YOUR EMAIL OR PASSWORD? NO PROBLEM</h1>
   <br>
   <h3>Enter your email address so we can send you a link.</h3>
   <form action="">
-    <label for="forgot-password">Email</label>
-    <input type="text">
+    <div class="horizontal-label-button">
+      <label for="forgot-password" class="forgot-password">Email</label>
+      <input type="email" placeholder="e.g., johndoe@email.com">
+      <button class="btn btn-primary">Submit</button>
+    </div>
+
   </form>
   
 
