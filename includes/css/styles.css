@@ -1,7 +1,6 @@
 /* styles.css */ 
 * {
     font-family: 'Quicksand', sans-serif;
-    color: white;
 }
 
 body {
@@ -14,14 +13,17 @@ body {
 }
 /* typography */
 
-div {
-    color: black; 
+
+div.modal,
+div.modal-header,
+div.modal-body, .col-form-label 
+div.modal-footer
+ {
+    color: black;
 }
 
-div.modal-header,
-div.modal-body, 
-div.modal-footer {
-    color: black; 
+h1, h3, div.modal + form + label {
+    color: white; 
 }
 
 .icon-bar {
@@ -126,9 +128,6 @@ button#login {
 
 /* modal */ 
 
-/* .modal-header {
-    padding: 1% 0 1% 44%; 
-} */
 .modal-body {
     padding: 20px 40px; 
 }
@@ -154,16 +153,6 @@ button#login {
     .row {
         overflow-x: hidden; 
     }
-
-    /* .container {
-    width: 100%;
-    padding-right: var(--bs-gutter-x,.75rem);
-    padding-left: var(--bs-gutter-x,.75rem);
-    margin-right: none;
-    margin-left: none;
-    } */
-
-
 } 
 
 @media (max-width: 768px) {
