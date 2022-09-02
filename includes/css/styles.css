@@ -103,6 +103,10 @@ p {
     color: white;
 }
 
+#sentEmail {
+    color: white; 
+}
+
 /* button */
 
 .btn.btn-outline-light {
