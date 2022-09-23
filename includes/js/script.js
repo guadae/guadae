@@ -5,7 +5,7 @@ let button = document.querySelector("#submitEmailButton");
 let submitEmail = document.getElementById("submitEmailInput"); 
 let sentEmailMessage = "Email sent!";
 
-button.addEventListener('click', function(event){
-    document.getElementById("sentEmail").innerHTML = sentEmailMessage; 
-});
+// button.addEventListener('click', function(event){
+//     document.getElementById("sentEmail").innerHTML = sentEmailMessage; 
+// });
 
