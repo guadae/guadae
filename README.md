@@ -12,6 +12,6 @@ I used HTML, CSS, and bootstrap 5 to create it because I wanted to study and exp
 
 You will not need any packages or modules. However, to keep up with the latest version of bootstrap, please download bootstraps latest compiled version and follow the steps below: 
 1. Replace the project's bootstrap folder with an updated folder containing the latest version of bootstrap. Currently, the project is using bootstrap 5.2.0. 
-2. In each of its html files, replace the bootstrap CDN with its current version found on https://getbootstrap.com/. You can also use different bootstrap CDNs if needed, as long as it is updated to its current version from the link above. 
+2. In each of its html files, replace the bootstrap CDN with its current version found on https://getbootstrap.com/. You can also use different bootstrap CDNs if needed, as long as it is updated to the current version that you will be using from the link above. 
 3. You may need to update the Bootstrap Javascript plugin and CDN as well 
 4. Viola. Have fun with the project template! 
