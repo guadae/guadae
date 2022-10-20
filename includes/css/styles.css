@@ -171,7 +171,7 @@ label.forgot-password {
 }
 
 /* forgot info */ 
-.forgot-info-container,  {
+.forgot-info-container {
     margin: 300px 0px; 
     display: flex;
     justify-content: center;
@@ -185,12 +185,6 @@ label.forgot-password {
 iframe{
     height:500px;
     width:500px;
-    /* position:absolute;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); */
   }
 
   .locations-container {
